@@ -1,5 +1,5 @@
 proxies:
-  - name: SGDO_SNI
+  - name: SGDO_SNI_ON
     server: sg2-vip.csrvpn.net
     port: 443
     type: vmess
@@ -16,7 +16,7 @@ proxies:
         Host: layanan.ruangguru.com
     udp: true
 
-  - name: ALIBABA
+  - name: ALIBABA_ON
     type: vless
     server: 104.17.3.81
     port: 443
@@ -33,7 +33,7 @@ proxies:
       headers:
         Host: free.bansos4u.WEB.id
         
-  - name: HERZA_TLS
+  - name: HERZA_TLS_ON
     server: 104.17.3.81
     port: 443
     type: vmess
@@ -50,7 +50,7 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
     
-  - name: HERZA_NONTLS
+  - name: HERZA_NONTLS_ON
     server: 104.17.3.81
     port: 80
     type: vmess
@@ -67,7 +67,7 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
     
-  - name: JPG_TLS
+  - name: JPG_TLS_ON
     server: 104.17.3.81
     port: 443
     type: vless
@@ -83,7 +83,7 @@ proxies:
         Host: vless-jp01.gproxy.gratis
     udp: true
     
-  - name: JPG_NONTLS
+  - name: JPG_NONTLS_ON
     server: 104.17.3.81
     port: 443
     type: vless
