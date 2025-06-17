@@ -1,21 +1,4 @@
 proxies:
-  - name: SGDO_SNI_ON
-    server: sg2-vip.csrvpn.net
-    port: 443
-    type: vmess
-    uuid: sgdoa
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: layanan.ruangguru.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: layanan.ruangguru.com
-    udp: true
-
   - name: ALIBABA_ON
     type: vless
     server: 104.17.3.81
