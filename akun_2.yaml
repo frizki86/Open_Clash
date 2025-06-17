@@ -16,7 +16,7 @@ proxies:
       headers:
         Host: free.bansos4u.WEB.id
         
-  - name: HERZA_TLS_ON
+  - name: HERZA_I_ON
     server: 104.17.3.81
     port: 443
     type: vmess
@@ -33,7 +33,7 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
     
-  - name: HERZA_NONTLS_ON
+  - name: HERZA_II_ON
     server: 104.17.3.81
     port: 80
     type: vmess
@@ -50,7 +50,7 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
     
-  - name: JPG_TLS_ON
+  - name: JPG_I_ON
     server: 104.17.3.81
     port: 443
     type: vless
@@ -66,7 +66,7 @@ proxies:
         Host: vless-jp01.gproxy.gratis
     udp: true
     
-  - name: JPG_NONTLS_ON
+  - name: JPG_II_ON
     server: 104.17.3.81
     port: 443
     type: vless
