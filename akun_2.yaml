@@ -1,0 +1,100 @@
+proxies:
+  - name: SGDO_SNI
+    server: sg2-vip.csrvpn.net
+    port: 443
+    type: vmess
+    uuid: sgdoa
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: layanan.ruangguru.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: layanan.ruangguru.com
+    udp: true
+
+  - name: ALIBABA
+    type: vless
+    server: 104.17.3.81
+    port: 443
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: free.bansos4u.WEB.id
+    network: ws
+    sni: free.bansos4u.WEB.id
+    udp: true
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/8.222.178.214-6666
+      headers:
+        Host: free.bansos4u.WEB.id
+        
+  - name: HERZA_TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: a5274950-4b85-11f0-b032-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.hihu.net
+    network: ws
+    ws-opts:
+      path: /sjy1cd6l
+      headers:
+        Host: sg-1.hihu.net
+    udp: true
+    
+  - name: HERZA_NONTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: a5274950-4b85-11f0-b032-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-1.hihu.net
+    network: ws
+    ws-opts:
+      path: /sjy1cd6l
+      headers:
+        Host: sg-1.hihu.net
+    udp: true
+    
+  - name: JPG_TLS
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 1fa9e6ee-5394-46da-ae51-33b0f0252dff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vless-jp01.gproxy.gratis
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-jp01.gproxy.gratis
+    udp: true
+    
+  - name: JPG_NONTLS
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 1fa9e6ee-5394-46da-ae51-33b0f0252dff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vless-jp01.gproxy.gratis
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-jp01.gproxy.gratis
+    udp: true
