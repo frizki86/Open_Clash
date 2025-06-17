@@ -1,5 +1,5 @@
 proxies:    
-  - name: SGDO_TROJAN
+  - name: SGDO_TROJAN_ON
     type: trojan
     server: 104.17.3.81
     port: 443
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: wilo.luckystup-id.xyz
         
-  - name: ORACLE CLOUD
+  - name: ORACLE_CLOUD_ON
     type: trojan
     server: 104.17.3.81
     port: 443
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: wilo.luckystup-id.xyz
     
-  - name: ASIA
+  - name: ASIA_ON
     type: trojan
     server: 104.17.3.81
     port: 443
