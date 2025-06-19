@@ -1,49 +1,51 @@
-proxies:    
-  - name: SGDO_TROJAN_ON
-    type: trojan
-    server: 104.17.3.81
+proxies:
+  - name: SENGKED_SNI
+    server: sengked.tunneldesu.moe
     port: 443
-    password: c5597a84-a39e-47cb-9104-c2d204b85b08
+    type: vmess
+    uuid: 4fbc0227-9dc1-4fc1-bf8e-b8324255b250
+    alterId: 0
+    cipher: auto
     tls: true
     skip-cert-verify: true
-    sni: wilo.luckystup-id.xyz
+    servername: layanan.ruangguru.com
     network: ws
-    flow: ''
-    udp: true
     ws-opts:
-      path: /104.248.145.216-443
+      path: /vmess
       headers:
-        Host: wilo.luckystup-id.xyz
-        
-  - name: ORACLE_CLOUD_ON
-    type: trojan
+        Host: layanan.ruangguru.com
+    udp: true
+
+  - name: SENGKED_TLS
     server: 104.17.3.81
     port: 443
-    password: 79002b1e-4371-403b-9e84-f5f6b324684c
+    type: vmess
+    uuid: 4fbc0227-9dc1-4fc1-bf8e-b8324255b250
+    alterId: 0
+    cipher: auto
     tls: true
     skip-cert-verify: true
-    sni: wilo.luckystup-id.xyz
+    servername: sengked.tunneldesu.moe
     network: ws
-    flow: ''
-    udp: true
     ws-opts:
-      path: /129.150.49.58-18650
+      path: /vmess
       headers:
-        Host: wilo.luckystup-id.xyz
+        Host: sengked.tunneldesu.moe
+    udp: true
     
-  - name: ASIA_ON
-    type: trojan
+  - name: SENGKED_NONTLS
     server: 104.17.3.81
-    port: 443
-    password: b2a98029-7db1-49c8-a474-b26db3a809ed
-    tls: true
+    port: 80
+    type: vmess
+    uuid: 4fbc0227-9dc1-4fc1-bf8e-b8324255b250
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: wilo.luckystup-id.xyz
+    servername: sengked.tunneldesu.moe
     network: ws
-    flow: ''
-    udp: true
     ws-opts:
-      path: /110.34.164.39-28758
+      path: /vmess
       headers:
-        Host: wilo.luckystup-id.xyz
-        
+        Host: sengked.tunneldesu.moe
+    udp: true
