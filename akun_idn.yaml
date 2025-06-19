@@ -1,21 +1,4 @@
 proxies:
-  - name: SENGKED_SNI
-    server: sengked.tunneldesu.moe
-    port: 443
-    type: vmess
-    uuid: 4fbc0227-9dc1-4fc1-bf8e-b8324255b250
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: layanan.ruangguru.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: layanan.ruangguru.com
-    udp: true
-
   - name: SENGKED_TLS
     server: 104.17.3.81
     port: 443
