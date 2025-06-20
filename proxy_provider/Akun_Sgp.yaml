@@ -82,34 +82,3 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
     
-  - name: JPG_I_ON
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: 1fa9e6ee-5394-46da-ae51-33b0f0252dff
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vless-jp01.gproxy.gratis
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: vless-jp01.gproxy.gratis
-    udp: true
-    
-  - name: JPG_II_ON
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: 1fa9e6ee-5394-46da-ae51-33b0f0252dff
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vless-jp01.gproxy.gratis
-    network: ws
-    ws-opts:
-      path: /vless-ws
-      headers:
-        Host: vless-jp01.gproxy.gratis
-    udp: true
