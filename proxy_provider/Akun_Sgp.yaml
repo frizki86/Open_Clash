@@ -1,0 +1,115 @@
+proxies:        
+  - name: ORACLE_CLOUD_ON
+    type: trojan
+    server: 104.17.3.81
+    port: 443
+    password: 79002b1e-4371-403b-9e84-f5f6b324684c
+    tls: true
+    skip-cert-verify: true
+    sni: wilo.luckystup-id.xyz
+    network: ws
+    flow: ''
+    udp: true
+    ws-opts:
+      path: /129.150.49.58-18650
+      headers:
+        Host: wilo.luckystup-id.xyz
+    
+  - name: ASIA_ON
+    type: trojan
+    server: 104.17.3.81
+    port: 443
+    password: b2a98029-7db1-49c8-a474-b26db3a809ed
+    tls: true
+    skip-cert-verify: true
+    sni: wilo.luckystup-id.xyz
+    network: ws
+    flow: ''
+    udp: true
+    ws-opts:
+      path: /110.34.164.39-28758
+      headers:
+        Host: wilo.luckystup-id.xyz
+
+  - name: ALIBABA_ON
+    type: vless
+    server: 104.17.3.81
+    port: 443
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: free.bansos4u.WEB.id
+    network: ws
+    sni: free.bansos4u.WEB.id
+    udp: true
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/8.222.178.214-6666
+      headers:
+        Host: free.bansos4u.WEB.id
+        
+  - name: HERZA_I_ON
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: a5274950-4b85-11f0-b032-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.hihu.net
+    network: ws
+    ws-opts:
+      path: /sjy1cd6l
+      headers:
+        Host: sg-1.hihu.net
+    udp: true
+    
+  - name: HERZA_II_ON
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: a5274950-4b85-11f0-b032-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-1.hihu.net
+    network: ws
+    ws-opts:
+      path: /sjy1cd6l
+      headers:
+        Host: sg-1.hihu.net
+    udp: true
+    
+  - name: JPG_I_ON
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 1fa9e6ee-5394-46da-ae51-33b0f0252dff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vless-jp01.gproxy.gratis
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-jp01.gproxy.gratis
+    udp: true
+    
+  - name: JPG_II_ON
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 1fa9e6ee-5394-46da-ae51-33b0f0252dff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vless-jp01.gproxy.gratis
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: vless-jp01.gproxy.gratis
+    udp: true
