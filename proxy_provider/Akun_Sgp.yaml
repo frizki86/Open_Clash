@@ -30,3 +30,20 @@ proxies:
       path: /110.34.164.39-28758
       headers:
         Host: wilo.luckystup-id.xyz
+
+  - name: ALIBABA_ON
+    type: vless
+    server: 104.17.3.81
+    port: 443
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: free.bansos4u.WEB.id
+    network: ws
+    sni: free.bansos4u.WEB.id
+    udp: true
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/8.222.178.214-6666
+      headers:
+        Host: free.bansos4u.WEB.id
