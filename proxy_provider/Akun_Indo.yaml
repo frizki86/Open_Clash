@@ -1,17 +1,34 @@
 proxies:
-  - name: ALIBABA_ON
-    type: vless
+  - name: DEWAWEB
     server: 104.17.3.81
     port: 443
-    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    type: vmess
+    uuid: 5c60e368-38de-4b01-8e78-69bf44502e20
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: free.bansos4u.WEB.id
+    servername: id-hz2.wc-webkuy.web.id
     network: ws
-    sni: free.bansos4u.WEB.id
-    udp: true
     ws-opts:
-      path: /Free/TG-at-BitzBlack/8.222.178.214-6666
+      path: /vmess
       headers:
-        Host: free.bansos4u.WEB.id
+        Host: id-hz2.wc-webkuy.web.id
+    udp: true
+    
+  - name: DEWAWEB
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: 5c60e368-38de-4b01-8e78-69bf44502e20
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id-hz2.wc-webkuy.web.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-hz2.wc-webkuy.web.id
+    udp: true
