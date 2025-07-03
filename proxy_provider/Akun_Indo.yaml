@@ -1,5 +1,5 @@
 proxies:
-  - name: DEWAWEB
+  - name: DW_TLS
     server: 104.17.3.81
     port: 443
     type: vmess
@@ -16,7 +16,7 @@ proxies:
         Host: id-hz2.wc-webkuy.web.id
     udp: true
     
-  - name: DEWAWEB
+  - name: DW_NONTLS
     server: 104.17.3.81
     port: 80
     type: vmess
