@@ -1,34 +1,68 @@
 proxies:
-  - name: DW_TLS
+  - name: SANGORO_1
     server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: 5c60e368-38de-4b01-8e78-69bf44502e20
+    uuid: 5643079a-2801-4caa-a885-777e33ecdc52
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-hz2.wc-webkuy.web.id
+    servername: ikd.tunneldesu.jp.net
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id-hz2.wc-webkuy.web.id
+        Host: ikd.tunneldesu.jp.net
     udp: true
     
-  - name: DW_NONTLS
+  - name: SANGORO_2
     server: 104.17.3.81
     port: 80
     type: vmess
-    uuid: 5c60e368-38de-4b01-8e78-69bf44502e20
+    uuid: 5643079a-2801-4caa-a885-777e33ecdc52
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id-hz2.wc-webkuy.web.id
+    servername: ikd.tunneldesu.jp.net
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id-hz2.wc-webkuy.web.id
+        Host: ikd.tunneldesu.jp.net
+    udp: true
+
+  - name: CF_1
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: 06991b47-e0a1-4755-a9fc-cf55c48e03ca
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-cf.lawssh.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-cf.lawssh.cloud
+    udp: true
+    
+  - name: CF_2
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: 06991b47-e0a1-4755-a9fc-cf55c48e03ca
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id-cf.lawssh.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-cf.lawssh.cloud
     udp: true
