@@ -1,20 +1,4 @@
 proxies:
-  - name: SGDO_TROJAN_ON
-    type: trojan
-    server: 104.17.3.81
-    port: 443
-    password: c5597a84-a39e-47cb-9104-c2d204b85b08
-    tls: true
-    skip-cert-verify: true
-    sni: wilo.luckystup-id.xyz
-    network: ws
-    flow: ''
-    udp: true
-    ws-opts:
-      path: /104.248.145.216-443
-      headers:
-        Host: wilo.luckystup-id.xyz
-
   - name: ORACLE_CLOUD_ON
     type: trojan
     server: 104.17.3.81
