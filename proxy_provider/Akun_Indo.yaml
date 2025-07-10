@@ -1,34 +1,18 @@
 proxies:
-  - name: CF_1
+  - name: ALIBABA_ON
+    type: vless
     server: 104.17.3.81
     port: 443
-    type: vmess
-    uuid: 06991b47-e0a1-4755-a9fc-cf55c48e03ca
-    alterId: 0
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-cf.lawssh.cloud
+    servername: free.bansos4u.WEB.id
     network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-cf.lawssh.cloud
+    sni: free.bansos4u.WEB.id
     udp: true
-    
-  - name: CF_2
-    server: 104.17.3.81
-    port: 80
-    type: vmess
-    uuid: 06991b47-e0a1-4755-a9fc-cf55c48e03ca
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-cf.lawssh.cloud
-    network: ws
     ws-opts:
-      path: /vmess
+      path: /Free/TG-at-BitzBlack/8.222.178.214-6666
       headers:
-        Host: id-cf.lawssh.cloud
-    udp: true
+        Host: free.bansos4u.WEB.id
+
