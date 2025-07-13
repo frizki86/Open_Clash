@@ -14,36 +14,3 @@ proxies:
       grpc-service-name: vmess-service
     udp: true
     
-  - name: CF_TLS
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: 336ccb52-c62f-483f-a347-1172ffea6f61
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-cf.lawssh.cloud
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-cf.lawssh.cloud
-    udp: true
-    
-  - name: CF_NTLS
-    server: 104.17.3.81
-    port: 80
-    type: vmess
-    uuid: 336ccb52-c62f-483f-a347-1172ffea6f61
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-cf.lawssh.cloud
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-cf.lawssh.cloud
-    udp: true
