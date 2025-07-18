@@ -14,7 +14,6 @@ proxies:
       path: /104.248.145.216-443
       headers:
         Host: wilo.luckystup-id.xyz
-    interface-name: usb0
         
   - name: ORACLE_CLOUD_ON
     type: trojan
@@ -31,7 +30,6 @@ proxies:
       path: /129.150.49.58-18650
       headers:
         Host: wilo.luckystup-id.xyz
-    interface-name: usb0
     
   - name: ASIA_ON
     type: trojan
@@ -48,4 +46,3 @@ proxies:
       path: /110.34.164.39-28758
       headers:
         Host: wilo.luckystup-id.xyz
-    interface-name: usb0
