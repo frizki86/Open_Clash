@@ -1,18 +1,49 @@
 proxies:
-  - name: ALIBABA_ON
-    type: vless
-    server: 104.17.3.81
+  - name: RAJASA_SNI
+    server: id2-vip.csrvpn.net
     port: 443
-    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    type: vmess
+    uuid: rjsax
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: free.bansos4u.WEB.id
+    servername: layanan.ruangguru.com
     network: ws
-    sni: free.bansos4u.WEB.id
-    udp: true
     ws-opts:
-      path: /Free/TG-at-BitzBlack/8.222.178.214-6666
+      path: /vmess
       headers:
-        Host: free.bansos4u.WEB.id
-        
+        Host: layanan.ruangguru.com
+    udp: true
+    
+  - name: RAJASA_NTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: rjsax
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id2-vip.csrvpn.net
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id2-vip.csrvpn.net
+    udp: true
+    
+  - name: RAJASA_TLS
+    server: 104.17.3.81
+    port: 443
+    type: vmess
+    uuid: rjsax
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess
+    udp: true
