@@ -42,8 +42,10 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess
+    servername: id2-vip.csrvpn.net
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id2-vip.csrvpn.net
     udp: true
