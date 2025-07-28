@@ -1,19 +1,36 @@
 proxies:
-  - name: RAJASA_SNI
-    server: id2-vip.csrvpn.net
+  - name: CF_TLS
+    server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: rjsax
+    uuid: 2d4d9445-3975-4b9a-bad7-2b23b37bf54e
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: layanan.ruangguru.com
+    servername: id-cf.lawssh.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: layanan.ruangguru.com
+        Host: id-cf.lawssh.cloud
+    udp: true
+    
+  - name: CF_NTLS
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: 2d4d9445-3975-4b9a-bad7-2b23b37bf54e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id-cf.lawssh.cloud
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-cf.lawssh.cloud
     udp: true
     
   - name: CF_GRPC
