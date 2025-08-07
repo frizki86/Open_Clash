@@ -1,4 +1,21 @@
 proxies:
+  - name: CF_SNI
+    server: id-cf.lawssh.cloud
+    port: 443
+    type: vmess
+    uuid: 2d4d9445-3975-4b9a-bad7-2b23b37bf54e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: layanan.ruangguru.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: layanan.ruangguru.com
+    udp: true
+    
   - name: CF_TLS
     server: 104.17.3.81
     port: 443
