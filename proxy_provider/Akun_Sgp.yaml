@@ -1,5 +1,21 @@
 proxies:
-  - name: ALIBABA_ON
+  - name: ALIBABA_ON_1
+    type: vless
+    server: free.bansos4u.WEB.id
+    port: 443
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: layanan.ruangguru.com
+    network: ws
+    udp: true
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/8.222.178.214-6666
+      headers:
+        Host: layanan.ruangguru.com
+        
+  - name: ALIBABA_ON_2
     type: vless
     server: 104.17.3.81
     port: 443
