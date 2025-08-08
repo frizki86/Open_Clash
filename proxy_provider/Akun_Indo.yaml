@@ -1,49 +1,30 @@
-proxies:
-  - name: CF_TLS
+proxies:    
+  - name: SGGS_GRPC
     server: 104.17.3.81
     port: 443
     type: vmess
-    uuid: 2d4d9445-3975-4b9a-bad7-2b23b37bf54e
+    uuid: 5875cb72-8164-425f-9605-9bebcf84efb6
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-cf.lawssh.cloud
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-cf.lawssh.cloud
-    udp: true
-    
-  - name: CF_NTLS
-    server: 104.17.3.81
-    port: 80
-    type: vmess
-    uuid: 2d4d9445-3975-4b9a-bad7-2b23b37bf54e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-cf.lawssh.cloud
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-cf.lawssh.cloud
-    udp: true
-    
-  - name: CF_GRPC
-    server: 104.17.3.81
-    port: 443
-    type: vmess
-    uuid: 2d4d9445-3975-4b9a-bad7-2b23b37bf54e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-cf.lawssh.cloud
+    servername: sggs-3.storevpn.cc
     network: grpc
     grpc-opts:
-      grpc-service-name: vmess-grpc
+      grpc-service-name: vmess-service
+    udp: true
+    
+  - name: ILPED-GPRC
+    server: 104.26.7.171
+    port: 443
+    type: vmess
+    uuid: 5875cb72-8164-425f-9605-9bebcf84efb6
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sggs-3.storevpn.cc
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-service
     udp: true
