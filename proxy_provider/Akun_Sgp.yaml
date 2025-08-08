@@ -63,32 +63,19 @@ proxies:
       path: /110.34.164.39-28758
       headers:
         Host: wilo.luckystup-id.xyz
-    - client-fingerprint: chrome
-      name: "1 \U0001F1EE\U0001F1E9 Amazon.com WS TLS [omahpawon]"
-      network: ws
-      password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: false
-      sni: omahpawon.frizki86.workers.dev
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /43.218.77.16-1443
-        
-    - client-fingerprint: chrome
-      name: Trojan UDP
-      network: ws
-      password: t.me/foolvpn
-      port: "443"
-      server: 104.17.3.81
-      skip-cert-verify: false
-      sni: id1.foolvpn.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /trojan-udp
+
+  - name: GRATIS
+    type: Trojan
+    server: 104.17.3.81
+    port: 443
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    tls: true
+    skip-cert-verify: false
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    flow: ''
+    udp: true
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
