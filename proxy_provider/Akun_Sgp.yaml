@@ -77,7 +77,7 @@ proxies:
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
-    
+
   - name: 2 🇮🇩 Amazon.com WS TLS [omahpawon]
     server: 104.17.3.81
     port: 443
@@ -91,31 +91,59 @@ proxies:
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
-    
-  - name: 3 🇮🇩 PT Telekomunikasi Indonesia WS TLS [omahpawon]
+
+  - name: 6 🇸🇬 DigitalOcean WS TLS [omahpawon]
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /36.95.152.58-12137
+      path: /178.128.80.43-443
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
-    
-  - name: 4 🇮🇩 CV. Rumahweb Indonesia WS TLS [omahpawon]
+
+  - name: 7 🇸🇬 Alibaba Cloud LLC WS TLS [omahpawon]
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /203.194.112.119-2053
+      path: /47.245.95.160-1443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
+
+  - name: 14 🇸🇬 Oracle Svenska AB WS TLS [omahpawon]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /213.35.107.73-443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
+
+  - name: 20 🇸🇬 Alibaba Cloud (Singapore) Private Limited WS TLS [omahpawon]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 71fe575e-9575-4de8-8755-4fc83ecbd8b8
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /8.219.1.169-443
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
