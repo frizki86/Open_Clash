@@ -64,18 +64,58 @@ proxies:
       headers:
         Host: wilo.luckystup-id.xyz
 
-  - name: GRATIS
-    type: Trojan
+  - name: 1 🇮🇩 Amazon.com WS TLS [omahpawon]
     server: 104.17.3.81
     port: 443
+    type: trojan
     password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
-    tls: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
-    flow: ''
-    udp: true
     ws-opts:
       path: /43.218.77.16-1443
       headers:
         Host: omahpawon.frizki86.workers.dev
+    udp: true
+    
+  - name: 2 🇮🇩 Amazon.com WS TLS [omahpawon]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
+    
+  - name: 3 🇮🇩 PT Telekomunikasi Indonesia WS TLS [omahpawon]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
+    
+  - name: 4 🇮🇩 CV. Rumahweb Indonesia WS TLS [omahpawon]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /203.194.112.119-2053
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
