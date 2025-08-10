@@ -14,17 +14,19 @@ proxies:
       grpc-service-name: vmess-service
     udp: true
     
-  - name: ILPED-GPRC
+  - name: SGGS_NTLS
     server: 104.26.7.171
-    port: 443
+    port: 80
     type: vmess
     uuid: 5875cb72-8164-425f-9605-9bebcf84efb6
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: sggs-3.storevpn.cc
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-service
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sggs-3.storevpn.cc
     udp: true
