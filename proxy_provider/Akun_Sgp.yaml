@@ -90,7 +90,7 @@ proxies:
       headers:
         Host: wilo.luckystup-id.xyz
 
-  - name: ORACLE_II]
+  - name: ORACLE_II
     server: 104.17.3.81
     port: 443
     type: trojan
