@@ -1,5 +1,5 @@
 proxies:
-  - name: ALIBABA_ON
+  - name: ALIBABA_VLESS
     type: vless
     server: 104.17.3.81
     port: 443
@@ -15,8 +15,36 @@ proxies:
       path: /Free/TG-at-BitzBlack/8.222.178.214-6666
       headers:
         Host: free.bansos4u.WEB.id
+        
+  - name: ALIBABA_TROJAN_I
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /47.245.95.160-1443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
 
-  - name: SGDO_TROJAN_ON
+  - name: ALIBABA_TROJAN_II
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 71fe575e-9575-4de8-8755-4fc83ecbd8b8
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /8.219.1.169-443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
+    
+  - name: SGDO_I
     type: trojan
     server: 104.17.3.81
     port: 443
@@ -31,8 +59,22 @@ proxies:
       path: /104.248.145.216-443
       headers:
         Host: wilo.luckystup-id.xyz
+
+  - name: SGDO_II
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /178.128.80.43-443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
         
-  - name: ORACLE_CLOUD_ON
+  - name: ORACLE_I
     type: trojan
     server: 104.17.3.81
     port: 443
@@ -47,6 +89,20 @@ proxies:
       path: /129.150.49.58-18650
       headers:
         Host: wilo.luckystup-id.xyz
+
+  - name: ORACLE_II]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /213.35.107.73-443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
     
   - name: ASIA_ON
     type: trojan
@@ -64,7 +120,7 @@ proxies:
       headers:
         Host: wilo.luckystup-id.xyz
 
-  - name: 1 🇮🇩 Amazon.com WS TLS [omahpawon]
+  - name: AMAZON_I
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -78,7 +134,7 @@ proxies:
         Host: omahpawon.frizki86.workers.dev
     udp: true
 
-  - name: 2 🇮🇩 Amazon.com WS TLS [omahpawon]
+  - name: AMAZON_II
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -92,58 +148,5 @@ proxies:
         Host: omahpawon.frizki86.workers.dev
     udp: true
 
-  - name: 6 🇸🇬 DigitalOcean WS TLS [omahpawon]
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /178.128.80.43-443
-      headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
 
-  - name: 7 🇸🇬 Alibaba Cloud LLC WS TLS [omahpawon]
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /47.245.95.160-1443
-      headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
 
-  - name: 14 🇸🇬 Oracle Svenska AB WS TLS [omahpawon]
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /213.35.107.73-443
-      headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
-
-  - name: 20 🇸🇬 Alibaba Cloud (Singapore) Private Limited WS TLS [omahpawon]
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 71fe575e-9575-4de8-8755-4fc83ecbd8b8
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /8.219.1.169-443
-      headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
