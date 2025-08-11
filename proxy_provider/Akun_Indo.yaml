@@ -1,5 +1,5 @@
 proxies:    
-  - name: (trims) [VMess - ws] SNI ✅
+  - name: (trims) [VMess - ws] WC ✅
     server: id1.stbvpn.xyz
     port: 443
     type: vmess
@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: layanan.ruangguru.com
+    servername: layanan.ruangguru.com.id1.stbvpn.xyz
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: layanan.ruangguru.com
+        Host: layanan.ruangguru.com.id1.stbvpn.xyz
     udp: true
 
   - name: (trims) [VMess - ws] TLS ✅
