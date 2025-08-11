@@ -1,51 +1,28 @@
 proxies:    
-  - name: (trims) [VMess - ws] WC ✅
-    server: id1.stbvpn.xyz
-    port: 443
-    type: vmess
-    uuid: 2f4884c0-8dae-4bd1-a7e2-a66bce17230b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: layanan.ruangguru.com.id1.stbvpn.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: layanan.ruangguru.com.id1.stbvpn.xyz
-    udp: true
-
-  - name: (trims) [VMess - ws] TLS ✅
+  - name: AMAZON_I
     server: 104.17.3.81
     port: 443
-    type: vmess
-    uuid: 2f4884c0-8dae-4bd1-a7e2-a66bce17230b
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
     skip-cert-verify: true
-    servername: id1.stbvpn.xyz
+    sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /vmess
+      path: /43.218.77.16-1443
       headers:
-        Host: id1.stbvpn.xyz
+        Host: omahpawon.frizki86.workers.dev
     udp: true
 
-  - name: (trims) [VMess - ws] nonTLS ✅
+  - name: AMAZON_II
     server: 104.17.3.81
-    port: 80
-    type: vmess
-    uuid: 2f4884c0-8dae-4bd1-a7e2-a66bce17230b
-    alterId: 0
-    cipher: auto
-    tls: false
+    port: 443
+    type: trojan
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
     skip-cert-verify: true
-    servername: id1.stbvpn.xyz
+    sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /vmess
+      path: /43.218.77.16-443
       headers:
-        Host: id1.stbvpn.xyz
+        Host: omahpawon.frizki86.workers.dev
     udp: true
