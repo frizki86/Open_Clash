@@ -102,7 +102,34 @@ proxies:
       path: /110.34.164.39-28758
       headers:
         Host: wilo.luckystup-id.xyz
+        
+  - name: AMAZON_I
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
 
+  - name: AMAZON_II
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
 
 
 
