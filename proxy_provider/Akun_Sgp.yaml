@@ -1,135 +1,112 @@
 proxies:
-  - name: ALIBABA_TROJAN_I
+  - name: 1 🇮🇩 CV. Rumahweb Indonesia WS TLS [omahpawon]
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /47.245.95.160-1443
+      path: /203.194.112.119-8443
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
 
-  - name: ALIBABA_TROJAN_II
+  - name: 1 🇮🇩 CV. Rumahweb Indonesia WS NTLS [omahpawon]
     server: 104.17.3.81
-    port: 443
+    port: 80
     type: trojan
-    password: 71fe575e-9575-4de8-8755-4fc83ecbd8b8
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /8.219.1.169-443
+      path: /203.194.112.119-8443
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
-    
-  - name: SGDO_I
-    type: trojan
-    server: 104.17.3.81
-    port: 443
-    password: c5597a84-a39e-47cb-9104-c2d204b85b08
-    tls: true
-    skip-cert-verify: true
-    sni: wilo.luckystup-id.xyz
-    network: ws
-    flow: ''
-    udp: true
-    ws-opts:
-      path: /104.248.145.216-443
-      headers:
-        Host: wilo.luckystup-id.xyz
 
-  - name: SGDO_II
+  - name: 2 🇮🇩 CV. Rumahweb Indonesia WS TLS [omahpawon]
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /178.128.80.43-443
+      path: /203.194.112.119-2053
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
-        
-  - name: ORACLE_I
-    type: trojan
-    server: 104.17.3.81
-    port: 443
-    password: 79002b1e-4371-403b-9e84-f5f6b324684c
-    tls: true
-    skip-cert-verify: true
-    sni: wilo.luckystup-id.xyz
-    network: ws
-    flow: ''
-    udp: true
-    ws-opts:
-      path: /129.150.49.58-18650
-      headers:
-        Host: wilo.luckystup-id.xyz
 
-  - name: ORACLE_II
+  - name: 2 🇮🇩 CV. Rumahweb Indonesia WS NTLS [omahpawon]
     server: 104.17.3.81
-    port: 443
+    port: 80
     type: trojan
-    password: 3e7bf36b-b4f7-4b33-9fab-5f48a4f1ef4e
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /213.35.107.73-443
+      path: /203.194.112.119-2053
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
-    
-  - name: ASIA_ON
-    type: trojan
-    server: 104.17.3.81
-    port: 443
-    password: b2a98029-7db1-49c8-a474-b26db3a809ed
-    tls: true
-    skip-cert-verify: true
-    sni: wilo.luckystup-id.xyz
-    network: ws
-    flow: ''
-    udp: true
-    ws-opts:
-      path: /110.34.164.39-28758
-      headers:
-        Host: wilo.luckystup-id.xyz
-        
-  - name: AMAZON_I
+
+  - name: 3 🇮🇩 PT Telekomunikasi Indonesia WS TLS [omahpawon]
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /43.218.77.16-1443
+      path: /36.95.152.58-12137
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
 
-  - name: AMAZON_II
+  - name: 3 🇮🇩 PT Telekomunikasi Indonesia WS NTLS [omahpawon]
     server: 104.17.3.81
-    port: 443
+    port: 80
     type: trojan
-    password: 28d74ba5-9992-4ad7-a449-5a8bdfad6f5d
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
     skip-cert-verify: true
     sni: omahpawon.frizki86.workers.dev
     network: ws
     ws-opts:
-      path: /43.218.77.16-443
+      path: /36.95.152.58-12137
       headers:
         Host: omahpawon.frizki86.workers.dev
     udp: true
 
+  - name: 4 🇮🇩 PT Pusat Media Indonesia WS TLS [omahpawon]
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
 
-
+  - name: 4 🇮🇩 PT Pusat Media Indonesia WS NTLS [omahpawon]
+    server: 104.17.3.81
+    port: 80
+    type: trojan
+    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
+    skip-cert-verify: true
+    sni: omahpawon.frizki86.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: omahpawon.frizki86.workers.dev
+    udp: true
