@@ -1,112 +1,53 @@
 proxies:
-  - name: 1 🇮🇩 CV. Rumahweb Indonesia WS TLS [omahpawon]
+  - name: 1 🇮🇩 Amazon.com
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
     skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
+    sni: jambu.pawon5758.my.id
     network: ws
     ws-opts:
-      path: /203.194.112.119-8443
+      path: /43.218.77.16-1443
       headers:
-        Host: omahpawon.frizki86.workers.dev
+        Host: jambu.pawon5758.my.id
     udp: true
-
-  - name: 1 🇮🇩 CV. Rumahweb Indonesia WS NTLS [omahpawon]
-    server: 104.17.3.81
-    port: 80
-    type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /203.194.112.119-8443
-      headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
-
-  - name: 2 🇮🇩 CV. Rumahweb Indonesia WS TLS [omahpawon]
+  - name: 2 🇮🇩 Amazon.com
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
     skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
+    sni: jambu.pawon5758.my.id
     network: ws
     ws-opts:
-      path: /203.194.112.119-2053
+      path: /43.218.77.16-443
       headers:
-        Host: omahpawon.frizki86.workers.dev
+        Host: jambu.pawon5758.my.id
     udp: true
-
-  - name: 2 🇮🇩 CV. Rumahweb Indonesia WS NTLS [omahpawon]
-    server: 104.17.3.81
-    port: 80
-    type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /203.194.112.119-2053
-      headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
-
-  - name: 3 🇮🇩 PT Telekomunikasi Indonesia WS TLS [omahpawon]
+  - name: 3 🇮🇩 PT Telekomunikasi Indonesia
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
     skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
+    sni: jambu.pawon5758.my.id
     network: ws
     ws-opts:
       path: /36.95.152.58-12137
       headers:
-        Host: omahpawon.frizki86.workers.dev
+        Host: jambu.pawon5758.my.id
     udp: true
-
-  - name: 3 🇮🇩 PT Telekomunikasi Indonesia WS NTLS [omahpawon]
-    server: 104.17.3.81
-    port: 80
-    type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /36.95.152.58-12137
-      headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
-
-  - name: 4 🇮🇩 PT Pusat Media Indonesia WS TLS [omahpawon]
+  - name: 4 🇮🇩 CV. Rumahweb Indonesia
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
     skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
+    sni: jambu.pawon5758.my.id
     network: ws
     ws-opts:
-      path: /103.6.207.108-8080
+      path: /203.194.112.119-2053
       headers:
-        Host: omahpawon.frizki86.workers.dev
-    udp: true
-
-  - name: 4 🇮🇩 PT Pusat Media Indonesia WS NTLS [omahpawon]
-    server: 104.17.3.81
-    port: 80
-    type: trojan
-    password: cdd8831e-fa69-4681-a97d-d607c74f82c6
-    skip-cert-verify: true
-    sni: omahpawon.frizki86.workers.dev
-    network: ws
-    ws-opts:
-      path: /103.6.207.108-8080
-      headers:
-        Host: omahpawon.frizki86.workers.dev
+        Host: jambu.pawon5758.my.id
     udp: true
