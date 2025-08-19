@@ -1,4 +1,56 @@
 proxies:
+  - name: 1 🇮🇩 Amazon.com
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
+    skip-cert-verify: true
+    sni: jambu.pawon5758.my.id
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: jambu.pawon5758.my.id
+    udp: true
+  - name: 2 🇮🇩 Amazon.com
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
+    skip-cert-verify: true
+    sni: jambu.pawon5758.my.id
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: jambu.pawon5758.my.id
+    udp: true
+  - name: 3 🇮🇩 PT Telekomunikasi Indonesia
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
+    skip-cert-verify: true
+    sni: jambu.pawon5758.my.id
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: jambu.pawon5758.my.id
+    udp: true
+  - name: 4 🇮🇩 CV. Rumahweb Indonesia
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: 7f8a692b-f473-40d9-a189-13667a3bb74d
+    skip-cert-verify: true
+    sni: jambu.pawon5758.my.id
+    network: ws
+    ws-opts:
+      path: /203.194.112.119-2053
+      headers:
+        Host: jambu.pawon5758.my.id
+    udp: true
   - name: 1 🇸🇬 DigitalOcean
     server: 104.17.3.81
     port: 443
