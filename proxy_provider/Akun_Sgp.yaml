@@ -64,59 +64,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
-  - name: 6 🇸🇬 M1 Ltd
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 5dc2f6b6-8728-4ec5-9a77-0876f79264b7
-    skip-cert-verify: true
-    sni: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /143.42.66.91-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 7 🇸🇬 UCUL-SG
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: 5dc2f6b6-8728-4ec5-9a77-0876f79264b7
-    skip-cert-verify: true
-    sni: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /164.52.2.100-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 8 🇸🇬 UCUL-SG
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: f76e08ce-3e97-4f28-b17c-e1fe0312ca5f
-    skip-cert-verify: true
-    sni: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /164.52.2.99-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 9 🇸🇬 UCUL-SG
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: f76e08ce-3e97-4f28-b17c-e1fe0312ca5f
-    skip-cert-verify: true
-    sni: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /164.52.2.98-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 10 🇸🇬 Oracle Public Cloud
+  - name: 6 🇸🇬 Oracle Public Cloud
     server: 104.17.3.81
     port: 443
     type: trojan
@@ -126,32 +74,6 @@ proxies:
     network: ws
     ws-opts:
       path: /168.138.165.174-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 11 🇸🇬 16 COLLYER QUAY
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: f76e08ce-3e97-4f28-b17c-e1fe0312ca5f
-    skip-cert-verify: true
-    sni: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /43.156.181.203-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 12 🇸🇬 6 COLLYER QUAY
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: f76e08ce-3e97-4f28-b17c-e1fe0312ca5f
-    skip-cert-verify: true
-    sni: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /43.156.116.194-443
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
