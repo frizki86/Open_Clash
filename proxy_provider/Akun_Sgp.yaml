@@ -12,6 +12,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
+    
   - name: 2 🇸🇬 Oracle Svenska AB
     server: 104.17.3.81
     port: 443
@@ -25,6 +26,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
+    
   - name: 3 🇸🇬 Alibaba Cloud (Singapore) Private Limited
     server: 104.17.3.81
     port: 443
@@ -38,6 +40,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
+    
   - name: 4 🇸🇬 DigitalOcean WS TLS
     server: 104.17.3.81
     port: 443
@@ -51,6 +54,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
+    
   - name: 5 🇸🇬 Amazon Data Services Singapore
     server: 104.17.3.81
     port: 443
@@ -64,6 +68,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
+    
   - name: 6 🇸🇬 Oracle Public Cloud
     server: 104.17.3.81
     port: 443
