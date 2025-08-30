@@ -25,6 +25,11 @@ payload:
   - DOMAIN-SUFFIX,rr3---sn-npoe7nlz.googlevideo.com
   - DOMAIN-SUFFIX,rr4---sn-npoe7nlz.googlevideo.com
   - DOMAIN-SUFFIX,rr5---sn-npoe7nlz.googlevideo.com
+  - DOMAIN-SUFFIX,rr1---sn-npoeenlk.googlevideo.com
+  - DOMAIN-SUFFIX,rr2---sn-npoeenlk.googlevideo.com
+  - DOMAIN-SUFFIX,rr3---sn-npoeenlk.googlevideo.com
+  - DOMAIN-SUFFIX,rr4---sn-npoeenlk.googlevideo.com
+  - DOMAIN-SUFFIX,rr5---sn-npoeenlk.googlevideo.com
   - DOMAIN-SUFFIX,lh4.googleusercontent.com
   - DOMAIN-SUFFIX,ad.doubleclick.net
   - DOMAIN-SUFFIX,googleads.g.doubleclick.net
