@@ -1,5 +1,5 @@
 proxies:
-  - name: 8 🇸🇬 DigitalOcean
+  - name: 1 🇸🇬 DigitalOcean NTLS
     server: 104.17.3.81
     port: 80
     type: vless
@@ -14,37 +14,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
-  - name: 9 🇸🇬 UCUL-SG
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: a89bfa7f-50fb-4179-8932-ae370e7d3b96
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /164.52.2.99-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 10 🇸🇬 Vultr Holdings
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: ea129536-a60e-4bf0-aeec-18388558f4b9
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /45.32.100.46-13802
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 11 🇸🇬 Zappie Host LLC
+  - name: 2 🇸🇬 Zappie Host LLC NTLS
     server: 104.17.3.81
     port: 80
     type: vless
@@ -59,37 +29,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
-  - name: 12 🇸🇬 Zappie Host LLC
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: c03169e6-a181-4da6-bed9-dd71966a7e15
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /83.142.30.5-2096
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 13 🇸🇬 Alibaba Cloud Private Limited
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: ea129536-a60e-4bf0-aeec-18388558f4b9
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /8.219.58.164-57373
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 14 🇸🇬 Melbikomas UAB
+  - name: 3 🇸🇬 Melbikomas UAB NTLS
     server: 104.17.3.81
     port: 80
     type: vless
