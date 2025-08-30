@@ -1,4 +1,5 @@
 payload:
+  - "ad.doubleclick.net"
   - DOMAIN-SUFFIX,pagead2.googlesyndication.com
   - DOMAIN-SUFFIX,pagead2.googleadservices.com
   - DOMAIN-SUFFIX,ads.google.com
