@@ -1,21 +1,6 @@
 proxies:
-  - name: 1 🇸🇬 Oracle Corporation
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: ea129536-a60e-4bf0-aeec-18388558f4b9
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /138.2.89.238-43254
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-  - name: 7 🇸🇬 Oracle Svenska AB
-    server: 104.17.3.81
+  - name: 1 🇸🇬 Oracle Public Cloud TLS
+    server: jambu.pawon5758.my.id
     port: 443
     type: vless
     uuid: a89bfa7f-50fb-4179-8932-ae370e7d3b96
@@ -25,7 +10,22 @@ proxies:
     servername: jambu.pawon5758.my.id
     network: ws
     ws-opts:
-      path: /213.35.100.31-47112
+      path: /168.138.165.174-443
+      headers:
+        Host: jambu.pawon5758.my.id
+    udp: true
+  - name: 2 🇸🇬 UCUL-SG TLS
+    server: jambu.pawon5758.my.id
+    port: 443
+    type: vless
+    uuid: a89bfa7f-50fb-4179-8932-ae370e7d3b96
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: jambu.pawon5758.my.id
+    network: ws
+    ws-opts:
+      path: /164.52.2.99-443
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
