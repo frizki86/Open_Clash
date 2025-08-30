@@ -1,4 +1,9 @@
 payload:
+  - DOMAIN-KEYWORD,rr1---sn-npoe
+  - DOMAIN-KEYWORD,rr2---sn-npoe
+  - DOMAIN-KEYWORD,rr3---sn-npoe
+  - DOMAIN-KEYWORD,rr4---sn-npoe
+  - DOMAIN-KEYWORD,rr5---sn-npoe
   - DOMAIN-SUFFIX,rr1---sn-npoldne7.googlevideo.com
   - DOMAIN-SUFFIX,rr2---sn-npoldne7.googlevideo.com
   - DOMAIN-SUFFIX,rr3---sn-npoldne7.googlevideo.com
