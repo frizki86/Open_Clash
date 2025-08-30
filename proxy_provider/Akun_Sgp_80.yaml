@@ -14,21 +14,6 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
-  - name: 2 🇸🇬 Zappie Host LLC NTLS
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: a89bfa7f-50fb-4179-8932-ae370e7d3b96
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /83.142.30.4-2096
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
   - name: 3 🇸🇬 Melbikomas UAB NTLS
     server: 104.17.3.81
     port: 80
