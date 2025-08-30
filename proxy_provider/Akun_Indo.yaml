@@ -1,37 +1,5 @@
 proxies:
-  - name: 🇮🇩 Amazon_1_TLS
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: cf403211-a4dc-4778-a8f9-0dffcdadd3da
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /43.218.77.16-1443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-    
-  - name: 🇮🇩 Amazon_1_NTLS
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: cf403211-a4dc-4778-a8f9-0dffcdadd3da
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /43.218.77.16-1443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-    
-  - name: 🇮🇩 Amazon_2_TLS
+  - name: 🇮🇩 Amazon_TLS
     server: 104.17.3.81
     port: 443
     type: vless
@@ -46,7 +14,7 @@ proxies:
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
-  - name: 🇮🇩 Amazon_2_NTLS
+  - name: 🇮🇩 Amazon_NTLS
     server: 104.17.3.81
     port: 80
     type: vless
@@ -58,70 +26,6 @@ proxies:
     network: ws
     ws-opts:
       path: /43.218.77.16-443
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-    
-  - name: 🇮🇩 PT Telekomunikasi Indonesia_TLS
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: cf403211-a4dc-4778-a8f9-0dffcdadd3da
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /36.95.152.58-12137
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-    
-  - name: 🇮🇩 PT Telekomunikasi Indonesia_NTLS
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: cf403211-a4dc-4778-a8f9-0dffcdadd3da
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /36.95.152.58-12137
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-    
-  - name: 🇮🇩 CV. Rumahweb Indonesia_TLS
-    server: 104.17.3.81
-    port: 443
-    type: vless
-    uuid: cf403211-a4dc-4778-a8f9-0dffcdadd3da
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /203.194.112.119-2053
-      headers:
-        Host: jambu.pawon5758.my.id
-    udp: true
-
-  - name: 🇮🇩 CV. Rumahweb Indonesia_NTLS
-    server: 104.17.3.81
-    port: 80
-    type: vless
-    uuid: cf403211-a4dc-4778-a8f9-0dffcdadd3da
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jambu.pawon5758.my.id
-    network: ws
-    ws-opts:
-      path: /203.194.112.119-2053
       headers:
         Host: jambu.pawon5758.my.id
     udp: true
