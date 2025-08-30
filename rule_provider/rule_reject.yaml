@@ -9,6 +9,7 @@ payload:
 # > Google Ads
   - DOMAIN-SUFFIX,pagead2.googlesyndication.com
   - DOMAIN-SUFFIX,ads.google.com
+  - DOMAIN-SUFFIX,googleads.g.doubleclick.net
   - DOMAIN-SUFFIX,adservice.google.com
   - DOMAIN-SUFFIX,pagead2.googleadservices.com
   - DOMAIN-SUFFIX,googleadservices.com
